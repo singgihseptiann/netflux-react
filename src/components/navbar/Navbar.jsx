@@ -17,7 +17,7 @@ function NavbarComponents() {
       <Navbar key={expand} expand={expand} className="bg-dark mb-3 text-white">
         <Container>
           <Navbar.Brand href="#" className="bg-dark text-danger fs-1">
-            Netflix
+            Netflux
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
           <Navbar.Offcanvas id={`offcanvasNavbar-expand-${expand}`} aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`} placement="end">
