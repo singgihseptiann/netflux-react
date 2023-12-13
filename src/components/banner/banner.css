@@ -1,0 +1,23 @@
+/* banner.css */
+
+.banner-container {
+  position: relative;
+  margin-top: 50px;
+}
+
+.banner-container::before {
+  content: "";
+  position: absolute;
+  left: -10%; /* Sesuaikan nilai left ke nilai positif untuk memindahkan ke kanan */
+  inset: 0;
+  border-radius: 519px;
+  background: rgba(95, 122, 219, 0.8);
+  filter: blur(50px);
+  z-index: -1;
+  width: 60%; /* Sesuaikan lebar sesuai kebutuhan */
+  height: 80%; /* Sesuaikan tinggi sesuai kebutuhan */
+}
+
+.mt-banner {
+  margin-top: 190px;
+}
