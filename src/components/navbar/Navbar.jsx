@@ -14,9 +14,9 @@ function NavbarComponents() {
 
   return (
     <>
-      <Navbar key={expand} expand={expand} className="bg-dark mb-3 text-white">
+      <Navbar key={expand} expand={expand} className=" mb-3 text-white">
         <Container>
-          <Navbar.Brand href="#" className="bg-dark text-danger fs-1">
+          <Navbar.Brand href="#" className=" text-danger fs-1" style={{ backgroundColor: " #1A1C22" }}>
             Netflux
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -24,7 +24,7 @@ function NavbarComponents() {
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>Netflix</Offcanvas.Title>
             </Offcanvas.Header>
-            <Offcanvas.Body className="bg-dark text-white">
+            <Offcanvas.Body className=" text-white">
               <Nav className="justify-content-center flex-grow-1 pe-3 mb-2 mb-lg-0">
                 {links.map((link, index) => (
                   <Nav.Link key={index} href={link.href} className="text-white text-center">
